@@ -41,6 +41,7 @@ void CRUDPaketBimbel() {
         printf("4. Delete Paket Bimbel\n");
         printf("5. Keluar\n");
         printf("Masukkan Angka : "); scanf(" %d",&i);
+        printf("\n");
 
         switch(i) {
             case 1: CreatePaket(); break;
@@ -99,4 +100,6 @@ void ReadPaket() {
     fclose(FPB);
 }
 
-void UpdatePaket(){}
+void UpdatePaket() {
+
+}
