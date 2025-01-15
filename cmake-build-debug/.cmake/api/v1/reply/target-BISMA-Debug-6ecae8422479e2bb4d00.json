@@ -110,7 +110,7 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "cmake-build-debug/CRUDPaketBimbel.h",
+			"path" : "Headers/CRUDPaketBimbel.h",
 			"sourceGroupIndex" : 1
 		}
 	],
