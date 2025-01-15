@@ -23,12 +23,12 @@ int tempID;     // integer ID yang digunakan untuk repetition
 boolean found;
 
 void namaFile();            //untuk menentukan nama file yang akan digunakan
-void CRUDDiskon();     //prosedur utama untuk CRUD
-void CreateDiskon();         //prosedur create diskon
-void ReadDiskon();           //prosedur read diskon
-void UpdateDiskon();         //prosedur update diskon
+void CRUDDiskon();          //prosedur utama untuk CRUD
+void CreateDiskon();        //prosedur create diskon
+void ReadDiskon();          //prosedur read diskon
+void UpdateDiskon();        //prosedur update diskon
 void UpdateChoice();        //prosedur pemilihan update dalam prosedur update
-void DeleteDiskon();         //prosedur delete diskon (mengubah status menjadi nonaktif)
+void DeleteDiskon();        //prosedur delete diskon (mengubah status menjadi nonaktif)
 
 void namaFile() {
     strcpy(DiscFilename, "Diskon.dat");
