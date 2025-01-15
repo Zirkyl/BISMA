@@ -4,4 +4,4 @@ project(BISMA C)
 set(CMAKE_C_STANDARD 23)
 
 add_executable(BISMA main.c
-        cmake-build-debug/CRUDPaketBimbel.h)
+        Headers/CRUDPaketBimbel.h)
